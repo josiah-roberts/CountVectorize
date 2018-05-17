@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "CountVectorize": {
+      "commandName": "Project",
+      "commandLineArgs": "--input \"C:\\data\\data.csv\" --dataFile \"C:\\data\\real.txt.gz\" --legendFile \"C:\\data\\legend.txt.gz\" --cutoffPercent 0.08 --orders 1,3",
+      "environmentVariables": {
+        "gcAllowVeryLargeObjects": "1",
+        "COMPlus_gcAllowVeryLargeObjects": "1"
+      }
+    }
+  }
+}
